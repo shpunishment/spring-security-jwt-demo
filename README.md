@@ -2,7 +2,6 @@
 spring-security-jwt-demo是使用Spring Security对JWT Token认证的实现。
 
 使用的数据模型[spring-security-rbac0-demo](https://github.com/shpunishment/spring-security-rbac0-demo)一致。
-
 不同的是，[spring-security-rbac0-demo](https://github.com/shpunishment/spring-security-rbac0-demo)中使用的是Cookie和Session认证，这里使用JWT Token。
 
 Json Web Token (JWT)，是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准（RFC 7519）。
