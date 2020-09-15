@@ -1,0 +1,16 @@
+
+server:
+  port: 8123
+  servlet:
+    context-path: /jwt
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:4306/rbac0?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+
+mybatis:
+  typeAliasesPackage: com.shpun.model
+  mapper-locations: classpath:mapper/**.xml
