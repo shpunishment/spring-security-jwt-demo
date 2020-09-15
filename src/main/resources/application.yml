@@ -12,5 +12,9 @@ spring:
     password: root
 
 mybatis:
-  typeAliasesPackage: com.shpun.model
+  typeAliasesPackage: com.shpun.jwt.model
   mapper-locations: classpath:mapper/**.xml
+
+logging:
+  info:
+    com.shpun: debug

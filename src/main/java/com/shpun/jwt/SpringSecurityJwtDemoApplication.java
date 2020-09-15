@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.shpun.jwt")
+@MapperScan("com.shpun.jwt.mapper")
 public class SpringSecurityJwtDemoApplication {
 
     public static void main(String[] args) {
